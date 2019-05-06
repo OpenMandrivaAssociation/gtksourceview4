@@ -11,8 +11,8 @@
 
 Summary:	Source code viewing library
 Name:		gtksourceview
-Version: 	4.0.3
-Release:	3
+Version: 	4.2.0
+Release:	1
 License:	GPLv2+
 Group:		Editors
 Url:		http://gtksourceview.sourceforge.net/
@@ -63,10 +63,10 @@ GtkSourceView development files
 
 %build
 %configure --enable-vala
-%make 
+%make_build 
 
 %install
-%makeinstall_std
+%make_install
 
 %{find_lang} %{oname}-%{api}
 
