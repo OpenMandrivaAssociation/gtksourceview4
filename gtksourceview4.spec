@@ -17,6 +17,7 @@ License:	GPLv2+
 Group:		Editors
 Url:		http://gtksourceview.sourceforge.net/
 Source0:	http://download.gnome.org/sources/gtksourceview/%{url_ver}/%{oname}-%{version}.tar.xz
+BuildRequires:  meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
@@ -62,11 +63,11 @@ GtkSourceView development files
 %setup -qn %{oname}-%{version}
 
 %build
-%configure --enable-vala
-%make_build 
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 
 %{find_lang} %{oname}-%{api}
 
