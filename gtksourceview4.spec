@@ -72,7 +72,7 @@ GtkSourceView development files
 %{find_lang} %{oname}-%{api}
 
 %files -f %{oname}-%{api}.lang
-%doc AUTHORS NEWS README
+%doc AUTHORS NEWS README.md
 %{_datadir}/gtksourceview-%{api}
 
 %files -n %{libname} 
