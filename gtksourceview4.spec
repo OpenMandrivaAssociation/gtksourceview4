@@ -11,8 +11,8 @@
 
 Summary:	Source code viewing library
 Name:		gtksourceview
-Version: 	4.8.1
-Release:	2
+Version: 	4.8.2
+Release:	1
 License:	GPLv2+
 Group:		Editors
 Url:		http://gtksourceview.sourceforge.net/
