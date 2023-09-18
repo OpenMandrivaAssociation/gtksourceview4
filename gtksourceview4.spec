@@ -12,11 +12,11 @@
 Summary:	Source code viewing library
 Name:		gtksourceview
 Version: 	4.8.4
-Release:	3
+Release:	4
 License:	GPLv2+
 Group:		Editors
-Url:		http://gtksourceview.sourceforge.net/
-Source0:	http://download.gnome.org/sources/gtksourceview/%{url_ver}/%{oname}-%{version}.tar.xz
+Url:		https://gtksourceview.sourceforge.net/
+Source0:	https://download.gnome.org/sources/gtksourceview/%{url_ver}/%{oname}-%{version}.tar.xz
 BuildRequires:  meson
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
